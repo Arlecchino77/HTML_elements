@@ -10,24 +10,24 @@ body {
 }
 
 header {
-    margin-bottom: 40px; /* Увеличили расстояние от текста до виджета в два раза */
-    font-size: 18px;    /* Сделали текст заголовка чуть крупнее и заметнее */
+    margin-bottom: 40px;
+    font-size: 18px;
     color: #444;
 }
 
 .chat-card {
     display: flex;
     align-items: center;
-    padding: 16px 20px; /* Увеличили внутренние отступы для объема */
+    padding: 16px 20px;
     background: #ffffff;
-    border-radius: 15px; /* Немного сильнее скруглили углы для нового размера */
-    width: 450px;        /* Увеличили ширину виджета (было 350px) */
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); /* Сделали тень чуть глубже */
+    border-radius: 15px;
+    width: 450px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
 }
 
 .avatar {
-    width: 55px;         /* Увеличили размер аватара Тони */
+    width: 55px;
     height: 55px;
     border-radius: 50%;
     object-fit: cover;
@@ -44,14 +44,14 @@ header {
 
 .name {
     font-weight: 600;
-    font-size: 18px;    /* Увеличили шрифт имени */
+    font-size: 18px;
     color: #050505;
     margin-bottom: 4px;
 }
 
 .message {
     color: #65676b;
-    font-size: 15px;    /* Увеличили шрифт сообщения */
+    font-size: 15px;
 }
 
 .time {
@@ -67,7 +67,7 @@ header {
 }
 
 .seen-img {
-    width: 18px;        /* Увеличили иконку Кармелы */
+    width: 18px;
     height: 18px;
     border-radius: 50%;
     object-fit: cover;
