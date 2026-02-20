@@ -72,3 +72,9 @@ header {
     border-radius: 50%;
     object-fit: cover;
 }
+footer {
+    margin-top: 40px; /* Расстояние от виджета до футера */
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
